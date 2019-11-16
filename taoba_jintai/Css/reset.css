@@ -1,0 +1,67 @@
+/* 样式重置，去掉一些不必要的样式，开发前必做的事 */
+/*写一些默认的字体  颜色 等*/
+/*用的多的样式设置也在此编写*/
+body,p,h1,h2,h3,h4,ul{
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+img{
+    border: none;
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    color: #3c3c3c;
+}
+i{
+    font-style: normal;
+}
+input,button{
+    margin: 0;
+    padding: 0;
+}
+button{
+    outline: none;
+}
+body{
+    font:12px/1.5 tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+    color: #3c3c3c;
+    background-color: #f4f4f4;
+}
+.clearfix:after{   /*清除浮动 */
+    content: ' ';
+    display: block;
+    clear: both;
+}
+.layer{    /*固定居中*/
+    width: 1190px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.c4{
+    color: #f40;
+}
+.c5{
+    color: #f50;
+}
+.mr5{
+    margin-right: 5px;
+}
+.mr7{
+    margin-right: 7px;
+}
+.mt10{
+    margin-top: 10px;;
+}
+.mr10{
+    margin-right: 10px;;
+}
