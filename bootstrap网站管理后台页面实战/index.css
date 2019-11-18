@@ -1,0 +1,58 @@
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+nav.nav.navbar-default {
+    margin-bottom: 20px;
+}
+
+/*进度条样式设置*/
+.progress {
+    margin-bottom: 11px;
+}
+/*头像宽高*/
+.wh64{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+/*按钮表单上边距*/
+.mar_bt15{
+    margin-top: 15px;
+}
+
+/*用户界面样式修改*/
+/*page-header*/
+.page-header{
+    margin-top: 0;
+}
+.page-header h1{
+    margin: 0;
+    font-size: 16px;
+}
+/*用户界面搜索表单样式*/
+.user_search {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+/*padding0*/
+.pad0{
+    padding: 0;
+}
+/*tag 标签处理*/
+.taglist{
+    padding-top: 15px
+}
+.taglist .alert{
+    margin:0 15px 15px 0 ;
+}
+
+
+/* footer */
+footer{
+   font-weight: 400;
+   text-align: center;
+   padding: 20px;
+}
