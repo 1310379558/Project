@@ -1,0 +1,25 @@
+/* 全局样式  作用全局 */
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body {
+    margin-top: 41px;
+}
+figure{
+    width: 30%;
+    display: inline-block;
+    max-lines: 10px;
+}
+figure a{
+    display: inline-block;
+}
+img {
+    width: 100px;
+}
